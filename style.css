@@ -1,0 +1,44 @@
+#chatLog{
+	margin-left:550px;
+	margin-top:20px;
+	
+	
+	
+}
+#userBox{
+	margin-left:550px;
+	
+}
+
+
+
+
+
+body { 
+    color: #421; 
+    font-weight: bold; 
+    font-size: 18px; 
+    font-family: "Courier New"; 
+    background: rgb(200, 232, 241); 
+
+
+}
+body::after {
+    content: "";
+    background-image: url("bot.jpg");
+    background-repeat: repeat-x; 
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+::-webkit-input-placeholder { 
+	color: #800 
+}
+
+
+
+
